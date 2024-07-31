@@ -1,18 +1,23 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
-import logo from './logo.svg';
+import DisplayTree from "./pages/DisplayTree";
+import Home from "./pages/Home";
+import Input from "./pages/Input";
+import Layout from "./pages/Layout";
+import PreviousTrees from "./pages/PreviousTrees";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        </p>
-        <a>
-
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="enter-numbers" element={<Input />} />
+          <Route path="process-numbers" element={<DisplayTree />} />
+          <Route path="previous-trees" element={<PreviousTrees />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
