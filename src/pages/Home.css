@@ -1,0 +1,12 @@
+.main-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0, 10%;
+  padding-top: 5%;
+}
+
+.tree-box {
+  margin: 0, 10%;
+  padding: 5%;
+  background-color: rgb(194, 207, 219, 0.7) ;
+}
