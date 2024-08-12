@@ -1,0 +1,13 @@
+.jsonBox {
+    display: flex;
+    flex-direction: space-between;
+    justify-content: center;
+    align-items: center;
+    margin: 8.5%;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 80%;
+}
+
