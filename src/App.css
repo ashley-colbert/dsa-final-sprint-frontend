@@ -2,7 +2,7 @@
 
 
 header {
-  background-color:rgb(31, 69, 69);
+  background-color:rgb(11, 80, 103);
   background-size: cover;
   margin: -25px;
   height: 60px;
@@ -17,7 +17,7 @@ header {
 body {
   font-family: "Calistoga", Arial, Helvetica, sans-serif;
   background-color:rgb(0, 5, 8);
-  background: url("../public/trees.png");
+  background: url("../public/trees.jpg");
   background-size: cover;
   margin:25px;
 }
@@ -33,7 +33,7 @@ nav {
 }
 
 .nav-link:hover {
-  background: darkslategray;
+  background-color:rgb(14, 56, 70);
 }
 
 .headLogo {

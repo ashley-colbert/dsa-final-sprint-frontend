@@ -4,16 +4,15 @@ import './Home.css';
 const Home = ()=> {
   return (
   <>
+  <div className='spaceDiv'></div>
   <div className='main-box'>
    <h1>
-What is a Binary Tree?
+Binary Search Tree Generator
    </h1>
-    </div>
-    <div className="tree-box">
-      <p> A binary tree is a type of tree data structure in which each node can have at most two child nodes, known as the left child and the right child. Each node of the tree consists of – data and pointers to the left and the right child.(geeksforgeeks.org)</p>
-      <p>
-      Use the links above to create your own binary tree, or view previous trees.
-      </p>
+      <h2>
+      Use the links above to create your own binary tree, or view previously created trees.
+      </h2>
+      <p>All binary search trees are generated and displayed in JSON format. Each new tree is added to a PostgreSQL database. The Previous Trees link will fetch every binary search tree that has been created from the database for you to view.</p>
       </div>
     </>
   );
